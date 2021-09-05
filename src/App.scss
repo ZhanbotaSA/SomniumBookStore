@@ -1,0 +1,47 @@
+body {
+  background: #f8f8f8;
+}
+.header {
+  background: #1f2531;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+  .row {
+    height: 52px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: #fceb00;
+    }
+  }
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(217, 220, 255, 0.5);
+  border: none !important;
+
+  .card-img-block {
+    width: 120px;
+    height: 200px;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: flex;
+    img {
+      width: 100%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: #ccc;
+  width: 4px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1f2531;
+  border-radius: 15px;
+}
